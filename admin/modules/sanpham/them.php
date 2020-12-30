@@ -58,7 +58,7 @@ if (isset($_POST['btnThem']))
 
           $query ->execute();
 
-          $success = "Thêm Mới không Thành Công";
+          $success = "Thêm Mới Thành Công";
                } else {
                    echo "Có lỗi khi upload.";
                }
