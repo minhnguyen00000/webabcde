@@ -8,7 +8,7 @@ if(!isset($_SESSION['khachhang']))
 }else{
 if (isset($_GET['id'])) {
   # code...
-  //$id = $_GET['id'];
+  $id = $_GET['id'];
   
   $query = $pdo->prepare('SELECT * FROM sanpham WHERE masanpham=:id');
   $query->bindParam(':id',$_GET['id']);

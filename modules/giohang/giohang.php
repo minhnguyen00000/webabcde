@@ -124,7 +124,7 @@ if (!empty($_SESSION['giohangkhachhang'])) {
 
    
 
-   <!-- <script>
+   <script>
    		function capnhatItem(id){
    			soluong = $("#soluong_"+id).val();
    			$.get("index.php?ac=giohang&id="+id+"&soluong="+soluong, function(data){
@@ -139,4 +139,4 @@ if (!empty($_SESSION['giohangkhachhang'])) {
    				location.reload();
    			});
    		}
-   </script> -->
+   </script>
