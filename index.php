@@ -114,7 +114,7 @@ $so1trang=8;
 				<li><a href="index.php">Trang Chủ</a></li>
 				<li><a href="index.php?ac=dienthoai">Điện Thoại</a></li>
 				<li><a href="index.php?ac=dangky">Đăng Ký</a></li>
-				<li><a href="#">Giỏ hàng</a></li>
+				<li><a href="index.php?ac=giohang">Giỏ hàng</a></li>
 				<li><a href="index.php?ac=thongtinkh">Thông tin khách hàng</a></li>
 				
 				<div class="clear"></div>
