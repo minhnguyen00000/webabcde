@@ -137,8 +137,8 @@ $so1trang=8;
 			$ac="dsdt";
 			if(isset($_REQUEST['ac']))
 			$ac=$_REQUEST['ac'];
-			//if(isset($_POST['timkiem']))
-			//include("modules/timkiem/timkiem.php");
+			if(isset($_POST['timkiem']))
+			include("modules/timkiem/timkiem.php");
 			if(isset($_POST['timkiemtinhtrang']))
 			include("modules/giohang/timkiemddh.php");
 			// if(!isset($_SESSION['users']))
