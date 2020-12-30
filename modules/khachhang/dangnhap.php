@@ -4,7 +4,7 @@ if(isset($_POST['btndangnhap']))
 
   $sql="select count(*) from khachhang where taikhoan=:taikhoan and matkhau=md5(:matkhau) and tinhtrang=0";
   $stmt=$pdo->prepare($sql);
-  $para=array("taikhoan"=>$_POST['taikhoan'],"matkhau"=>$_POST['']);
+  $para=array("taikhoan"=>$_POST['taikhoan'],"matkhau"=>$_POST['matkhau']);
   $stmt->execute($para);
   
 if($stmt->fetchColumn(0)>0)
@@ -13,7 +13,7 @@ if($stmt->fetchColumn(0)>0)
   //echo "Dang nhap  thanh cong";
 ?>
 <script language="javascript">
-  alert("Đăng nhập khong thành công");
+  alert("Đăng nhập thành công");
   location.href="index.php";
 </script>
 <?php
